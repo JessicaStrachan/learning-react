@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>React App</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #F1DAE4;
+        color: #B8849B;
+        font-family: monospace;
+      }
+      .row {
+        padding: 20px 40px;
+        text-align: center;
+      }
+      input[type="text"] {
+        border: 1px solid #B8849B;
+        color: #B8849B;
+        padding: 10px;
+        margin-right: 10px;
+      }
+      input[type="text"]::placeholder {
+        color: #F1DAE4;
+      }
+      input:focus {
+        outline: 1px solid #8A516A;
+      }
+
+      button {
+        border: 1px solid #8A516A;
+        background-color: #B8849B;
+        color: #F1DAE4;
+        padding: 20px 40px;
+        transition: background-color .3s ease, color .3s ease;
+      }
+      button:hover {
+        background-color: #fff;
+        color: #B8849B;
+        cursor: pointer;
+      }
+    </style>
+    <div class="row" id="title"></div>
+    <div class="row" id="root"></div>
+    <div class="row" id="button"></div>
+    <div class="row" id="current-event"></div>
+    <div class="row" id="reference"></div>
+  </body>
+</html>
